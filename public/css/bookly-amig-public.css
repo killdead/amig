@@ -1,0 +1,205 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+.featured_img.wcfm_title {
+    width: 100%;
+    text-align: center;
+}
+
+input[type="text"].wcfm-text.wcfm-product-title {
+    width: 20% !important;
+}
+
+
+input[type="text"].wcfm-text, input[type="email"].wcfm-text, .wcfm-select {
+    padding: 5px;
+    width: 40% !important;
+    margin-bottom: 15px;
+    font-size: 15px;
+    display: inline-block;
+    box-shadow: none;
+}
+
+
+
+input[type="number"].wcfm-text {
+    padding: 10px !important;
+    width: 10% !important;
+    margin-bottom: 15px;
+    font-size: 15px;
+    display: inline-block;
+    box-shadow: none;
+}
+
+
+
+p.wcfm_title {
+    width: 180px !important;
+}
+
+
+.woocommerce {
+   display: flex;
+    flex-direction: column;
+}
+
+.woocommerce-MyAccount-content {
+    width: 70%;
+    float:left;
+    text-align: left;
+}
+
+.woocommerce-form-login-wrapper {
+    width: 33%;
+    margin:0 auto;
+}
+
+.woocommerce-form-login-wrapper .woocommerce-Button.button {
+    margin:auto;
+}
+
+.woocommerce-account .woocommerce h2 {
+    margin-bottom: 60px;
+}
+
+
+.woocommerce-account .woocommerce h2::after {
+    display: none !important;
+}
+
+.woocommerce-MyAccount-navigation ul {
+    margin-left:40px;
+}
+.woocommerce-MyAccount-navigation ul > li {
+    text-align: left;
+}
+
+.woocommerce-order {
+    margin: 20px auto;
+}
+
+.woocommerce .button {
+    background-color: #1c722a !important;
+    border: 2px solid #1c722a !important;
+    color: #fff !important;
+}
+
+.woocommerce-checkout form.checkout h3:after {
+    border-bottom-color: #1c722a !important;
+    width: 178px !important;
+}
+
+.woocommerce .button:hover, .woocommerce .button:not(.mkdf-btn-custom-border-hover):hover {
+    border-color: #1c722a !important;
+    color: #1c722a !important;
+}
+.woocommerce-checkout .shop_table.woocommerce-checkout-review-order-table tfoot th {
+    text-align: right;
+}
+
+#shipping_method {
+    list-style: none;
+}
+#billing_country_field {
+    display: none;
+}
+table .download-product {
+    display: none;
+}
+.woocommerce-notice .button.wc-forward {
+    display: none !important;
+}
+.woocommerce-error .button.wc-forward {
+    display: none !important;
+}
+.woocommerce-message .button.wc-forward {
+    display: none !important;
+}
+.woocommerce-message, .woocommerce-error, .woocommerce-notice {
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding: 30px;
+    -webkit-box-shadow: 1px 2px 7.28px 0.72px rgba(0,0,0,.08);
+    -moz-box-shadow: 1px 2px 7.28px .72px rgba(0,0,0,.08);
+    box-shadow: 1px 2px 7.28px 0.72px rgba(0,0,0,.08);
+}
+
+.woocommerce-form-login-wrapper {
+    background-color: #fff;
+    padding: 10px 20px 0 20px;
+    -webkit-box-shadow: 1px 2px 7.28px 0.72px rgba(0,0,0,.08);
+    -moz-box-shadow: 1px 2px 7.28px .72px rgba(0,0,0,.08);
+    box-shadow: 1px 2px 7.28px 0.72px rgba(0,0,0,.08);
+}
+.woocommerce-form-login-wrapper input {
+    background-color: #f7f7f7;
+}
+
+/* background color  template header dans les mails*/
+
+#wcfm_menu {
+    width: 304px !important;
+}
+
+#wcfm_menu .wcfm_menu_items a.wcfm_menu_item {
+    width: 264px !important;
+}
+
+#wcfm-content {
+    flex-wrap: nowrap !important;
+    -webkit-flex-wrap: nowrap !important;
+    -ms-flex-wrap: nowrap !important;
+}
+/*
+.wcfm-wp-fields-uploader.empty .remove_button,
+.wcfm-wp-fields-uploader.empty #_wc_file_urls_display,
+.wcfm-wp-fields-uploader.empty  #preview_display {
+    display: none;
+}
+*/
+#wcfm_products_manage_form input[type=email],
+#wcfm_products_manage_form input[type=text] {
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+    border-radius: 3px;
+}
+
+#wcfm-main-contentainer {
+    width: 90% !important;
+}
+a.diagnostic-preview {
+    display: inline-block;
+}
+.attachment-thumbnail.placeholder {
+    width: 180px;
+    height: 150px;
+    display: inline-block;
+    background: url('../img/Placeholder.png') no-repeat;
+    background-size: contain;
+}
+
+.wcfm-page-headig {
+    box-sizing: border-box;
+}
+
+.wcfm-container, #wcfm-main-contentainer div.wcfm-content {
+    box-sizing: border-box !important;
+}
+
+.wcfm_dashboard_wcfm_product_stats, .wcfm_dashboard_more_stats {
+    width: 50%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+}
+/*.wcfm-collapse .wcfm-container .wcfm-content {
+    min-height: 410px;
+}*/
+.product-status-wc-completed, .product-status-norma-completed { background-color: #73a724; }
+.product-status.product-status-publish {
+    background-color: #FF9800; !important;
+    color: #000000 !important;
+}

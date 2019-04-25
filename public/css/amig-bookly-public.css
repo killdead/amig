@@ -1,0 +1,322 @@
+
+/** NTICSTUDIO **/
+.bookly-time-screen .bookly-column button, .bookly-time-screen .bookly-column .booked {
+    border-radius: 0 !important;
+    margin: 0 !important;
+}
+
+.bookly-pagination > li.active, .bookly-columnizer .bookly-day, .bookly-schedule-date {
+    background: #9f2f17!important;
+    border: 1px solid #9f2f17!important;
+}
+
+.bookly-columnizer .bookly-day,
+.bookly-columnizer .bookly-hour,.bookly-columnizer .bookly-row-legend,  .bookly-column .booked , .bookly-row-legend{
+    display: block !important;
+    min-width: 0;
+    width: 100%;
+    background: white;
+    padding: 6px !important;
+    font-size: 13px!important;
+    text-align: center;
+    float: none !important;
+    vertical-align: middle;
+    text-transform: none;
+    border: none;
+}
+
+.bookly-column .booked {
+    cursor: none !important;
+}
+.bookly-columnizer .bookly-day,.colsalle {
+    height:51px !important;
+}
+
+.bookly-columnizer .bookly-col-legend {
+    height:102px !important;
+}
+
+.bookly-columnizer .bookly-column, .bookly-column .booked {
+    padding: 0;
+}
+
+.bookly-day.bookly-col-legend, .colsalle {
+    border: none !important;
+    margin: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #ccc!important;
+}
+
+
+
+.bookly-column-legend {
+    border: 1px solid #ccc;
+    border-right: none;
+}
+
+.bookly-column.bookly-js-first-column {
+    border-left-width: 2px;
+}
+
+.bookly-column:last-child {
+    border-right-width: 2px;
+}
+
+.bookly-columnizer .bookly-column-1, .bookly-columnizer .bookly-column-2 {
+    width: 50%;
+    float: left;
+}
+
+
+
+.colsalle {
+    width: 50%;
+    float: left;
+    line-height:51px;
+    vertical-align: middle;
+    text-align: center;
+}
+.colsalle.salle1  {
+    border-right: 1px solid #ccc!important;
+    -moz-box-sizing: border-box;
+    background: url(../img/icone-salle1.jpg) top center no-repeat;
+
+    background-size: contain;
+}
+
+
+.colsalle.salle2 {
+    border-left: 1px solid #ccc!important;
+    -moz-box-sizing: border-box;
+    background: url(../img/icone-salle2.jpg) top center no-repeat;
+    background-size: contain;
+}
+
+.bookly-columnizer .bookly-column-1 {
+    border-right: 1px solid #ccc;
+}
+
+.bookly-columnizer .bookly-column-2 {
+    border-left: 1px solid #ccc;
+}
+
+.salle2_inactive .colsalle.salle2 {
+    display: none;
+}
+
+.salle2_inactive .bookly-column-2 {
+    display: none;
+}
+
+.salle2_inactive .colsalle.salle1, .salle2_inactive .bookly-column-1 {
+    width: 100%;
+}
+
+
+.salle1_inactive .colsalle.salle1 {
+    display: none;
+}
+
+.salle1_inactive .bookly-column-1 {
+    display: none;
+}
+
+.salle1_inactive .colsalle.salle2, .salle1_inactive .bookly-column-2  {
+    width: 100%;
+}
+
+.bookly-hour,.bookly-row-legend{
+    height:35px !important;
+    border-bottom: 1px solid #ccc !important;
+}
+
+.bookly-columnizer .bookly-hour:hover {
+    border: 0;
+    color: #fff;
+    background-color: #9f2f17;
+}
+
+.bookly-columnizer .bookly-day {
+    border:0;
+}
+
+.bookly-columnizer .bookly-hour.booked:hover {
+    border: none;
+    color: #333333;
+    /* background-color: white; */
+    cursor: not-allowed !important;
+}
+
+.bookly-js-first-column {
+    border-top-color: white;
+}
+.bookly-js-first-column > .bookly-row-legend {
+    border-left: 1px solid #ccc;
+}
+
+
+.bookly-time-screen {
+    visibility: hidden;
+}
+
+.bookly-time-screen.active {
+    visibility: visible;
+}
+
+.bookly-time-step table td {
+    padding:0;
+}
+.bookly-time-step table, .bookly-time-step  td {
+    border: 0;
+}
+
+.bookly-column {
+    border: 1px solid #ccc;
+    padding: 0;
+    max-width: 12%;
+}
+
+.bookly-nav-steps {
+    border:0 !important;
+}
+
+.bookly-nav-steps.top {
+    padding:0;
+    overflow: hidden;
+    width: 220px;
+    margin: 8px auto;
+}
+
+.bookly-nav-steps >  button.bookly-time-prev {
+    float: left;
+}
+
+.bookly-nav-steps >  button.bookly-calendar-trigger {
+    float: left;
+}
+
+.bookly-calendar-trigger {
+    min-width: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bookly-slot-calendar {
+    position: absolute;
+    z-index: 10;
+    bottom: 130px;
+}
+
+.bookly-time-screen .bookly-column .booked {
+    background-color: #888 !important;
+}
+
+.bookly-hour {
+    width: 61px;
+    height: 34px;
+}
+
+
+
+.bookly-hour span.hc {
+    background: url(../img/icone-hc.png) top center no-repeat;
+    background-size: contain;
+    min-width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.bookly-hour span.hp {
+    background: url(../img/icone-hp.png) top center no-repeat;
+    background-size: contain;
+    min-width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.bookly-hour span.reserve {
+    background: url(../img/icone-reserve.png) top center no-repeat;
+    background-size: contain;
+    min-width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.bookly-column-1 > .bookly-hour:last-child, .bookly-column-2 > .bookly-hour:last-child, .bookly-row-legend:last-child {
+    border-bottom: none !important;
+}
+
+.bookly-current-week-text {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Dosis', sans-serif;
+    font-size: 26px;
+}
+
+.bookly-current-week-text > span {
+    font-family: 'Dosis', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+
+/***************** POPUP ******************/
+
+.fancybox-inner {
+    text-align: center;
+}
+
+#book-popup-title, #book-popup-date, #book-popup-select {
+    margin-bottom: 30px;
+}
+#book-popup-title .creneau {
+    font-size: 22px;
+}
+
+#book-popup-date
+{
+    color:#9f2f17;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#book-popup-choose, #book-popup-choose2 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+#booklyPopup select {
+    -webkit-appearance: menulist;
+    width: 50%;
+    line-height: 30px;
+    margin: 6px auto 0;
+    padding: 5px 12px;
+}
+
+#book-popup-book {
+    background-color: #87983a;
+    border-color: #87983a;
+    margin-left:4px;
+}
+
+#book-popup-book:hover {
+
+    background-color: #fff;
+    border-color: #87983a;
+    color: #87983a;
+}
+
+#book-popup-cancel {
+    background-color: #9f2f17;
+    border-color: #9f2f17;
+    color: #fff;
+}
+
+#book-popup-cancel:hover {
+    background-color: #fff;
+    border-color: #9f2f17;
+    color: #9f2f17;
+}
+

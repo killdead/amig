@@ -1,0 +1,54 @@
+1) action:bookly_session_save
+csrf_token:1a6b6680ab
+form_id:5b22535b8534d
+chain[0][service_id]:14
+chain[0][staff_ids][]:4
+chain[0][number_of_persons]:3
+chain[0][quantity]:1
+date_from:2018-06-18
+days[]:2
+days[]:3
+days[]:4
+days[]:5
+days[]:6
+days[]:7
+days[]:1
+time_from:10:00
+time_to:24:00
+
+2) action:bookly_render_time
+csrf_token:1a6b6680ab
+form_id:5b22535b8534d
+
+3) action:bookly_session_save
+csrf_token:1a6b6680ab
+form_id:5b22535b8534d
+slots:[[14,4,"2018-06-18 12:00:00"]]
+
+4) action:bookly_render_details
+csrf_token:1a6b6680ab
+form_id:5b22535b8534d
+add_to_cart:true
+
+5) ERROR
+action:bookly_session_save
+csrf_token:1a6b6680ab
+form_id:5b22535b8534d
+full_name:gerald
+phone:
+email:geniuslabs.seo@gmail.com
+cart[0][custom_fields]:[{"id":39394,"value":["En soumettant ce formulaire, j'accepte de créer un compte automatiquement et que les informations saisies dans ce formulaire soient utilisées pour permettre de me recontacter, m'envoyer la newsletter"]},{"id":36448,"value":["En validant votre commande et en créant votre compte, vous acceptez nos conditions générales de ventes, vous reconnaissez avoir pris connaissance de notre politique de gestion des données personnelles"]}]
+captcha_ids:[]
+
+6) action:bookly_session_save
+csrf_token:1a6b6680ab
+form_id:5b22535b8534d
+full_name:gerald
+phone:+33123456789
+email:geniuslabs.seo@gmail.com
+cart[0][custom_fields]:[{"id":39394,"value":["En soumettant ce formulaire, j'accepte de créer un compte automatiquement et que les informations saisies dans ce formulaire soient utilisées pour permettre de me recontacter, m'envoyer la newsletter"]},{"id":36448,"value":["En validant votre commande et en créant votre compte, vous acceptez nos conditions générales de ventes, vous reconnaissez avoir pris connaissance de notre politique de gestion des données personnelles"]}]
+captcha_ids:[]
+
+7) action:bookly_add_to_woocommerce_cart
+csrf_token:1a6b6680ab
+form_id:5b22535b8534d
