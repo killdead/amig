@@ -2271,7 +2271,9 @@
                                                         window.location.href = Options.woocommerce.cart_url;
                                                     } else {
                                                         ladda.stop();
-                                                        stepTime(undefined, response.error);
+                                                        alert('Cette réservation est présente dans votre panier. Vous allez être redirigé vers votre panier.')
+                                                        window.location.href = Options.woocommerce.cart_url;
+                                                        //stepTime(undefined, response.error);
                                                     }
                                                 }
                                             });
@@ -2298,6 +2300,13 @@
                                             $email_field.addClass('bookly-error');
                                             if ($scroll_to === null) {
                                                 $scroll_to = $email_field;
+                                            }
+                                        }
+                                        if (response.customer) {
+                                            $phone_error.html('Votre Téléphone est déjà associé avec un autre E-mail.<br/>Vous avez déjà un compte ? Connectez vous');                                        
+                                            $phone_field.addClass('bookly-error');
+                                            if ($scroll_to === null) {
+                                                $scroll_to = $phone_field;
                                             }
                                         }
                                         if (response.custom_fields) {
